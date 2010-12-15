@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="css3.ui.css" charset="UTF-8"/>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="animate-0.9.0.jquery.js"></script>
+    <script type="text/javascript">
+        
+        $(document).ready(function(){
+            
+            $('.accord').accordion({
+                autoHeight: true,
+            });
+            
+            $('#example1 .ui-legend').click(function(){
+                $('#example1').animate({skewX: 15, skewY: 15, translate: 240, rotate: 710, scale: 1.6, opacity: .8}, 5000, function(){
+                    $('#example1 .ui-legend').unbind('click');
+                });
+            });
+            
+        });
+        
+    </script>
+</head>
+
+<body>
+
+    
+    
+    <div id="example1" class="ui-box ui-box1">
+        <h2 class="ui-legend">jQuery FX CSS3 Animations</h2>
+        <div class="accord">
+            <h3>New jQuery CSS shorthand property names</h3>
+            <div>'rotate', 'scale', 'scaleX', 'scaleY', 'skew', 'skewX', 'skewY', 'translate', 'translateX', 'translateY'</div>
+            <h3 class="last">Native & familiar</h3>
+            <div>content 2</div>
+        </div>
+    </div>
+    
+</body>
+</html>
