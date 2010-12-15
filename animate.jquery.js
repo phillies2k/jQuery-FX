@@ -1,5 +1,5 @@
 /**
- * jQuery FX v1.0.0
+ * jQuery FX v1.1.0
  * 
  * jQuery plugin which enhances jQuery with the power of CSS3 properties to be
  * used in a native, familiar way. This plugins publishes css3 properties through
@@ -7,7 +7,7 @@
  * animation or just in a simple .css() call.
  *
  * @author Philipp Boes pb@mostgreedy.com
- * @see http://github.com/phillies2k/jQuery-FX/
+ * @see https://github.com/phillies2k/jQuery-FX/
  *
  * @version $Id$
  *

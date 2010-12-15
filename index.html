@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="animate.jquery.css" charset="UTF-8"/>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" src="animate.jquery.js"></script>
+</head>
+
+<body>
+
+    <h1>jQuery FX CSS3 Animations</h1>
+    
+    <div id="example1" class="ui-box ui-box1"><span>CSS3 Scale</span></div>
+    <div id="example2" class="ui-box ui-box1"><span>CSS3 Translate</span></div>
+    <div id="example3" class="ui-box ui-box2"><span>CSS3 Skew</span></div>
+    <div id="example4" class="ui-box ui-box3"><span>CSS3 Rotate</span></div>
+    <div id="example5" class="ui-box ui-box3"><span>CSS3 Combo</span></div>
+    
+    <script type="text/javascript">
+        $('#example1').click(function(){ $(this).animate({scale: 1.7}); });
+        $('#example2').click(function(){ $(this).animate({translate: 120}); });
+        $('#example3').click(function(){ $(this).animate({skew: 40, translateY: 100}); });
+        $('#example4').click(function(){ $(this).animate({scale: 1.2, rotate: 360, backgroundColor: '#ffeedd'}); });
+        $('#example5').click(function(){
+            $(this).animate({skew: 25, rotate: 1080, scale: 1.4, translateX: -140, translateY: 190, backgroundColor: '#c11'}, 3000, function(){
+                $(this).find('span').animate({ color: '#000', scale: 1.6});
+            });
+        });
+    </script>
+</body>
+</html>

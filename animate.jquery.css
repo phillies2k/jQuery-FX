@@ -1,0 +1,12 @@
+
+.ui-box { width: 160px; height: 160px; margin: 20px; float: left; line-height: 160px; text-align: center; color: #fff; }
+
+.ui-box.ui-box1 { background: #a18; }
+.ui-box.ui-box2 { background: #12a; }
+.ui-box.ui-box3 { background: #654; }
+
+
+blockquote { clear: both; overflow: hidden; border: 1px solid #ddd; margin: 0; padding: 0; display: block; }
+blockquote pre { font-size: 11px; margin: 0; padding: 8px 5px; height: auto; width: auto; display: block; line-height: 14px; }
+
+h2 { clear: both; overflow: hidden; }
