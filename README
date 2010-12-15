@@ -12,3 +12,10 @@
  * @version $Id$
  *
  */
+
+
+Usage:
+
+<script type="text/javascript">
+    $('#example1').click(function(){ $(this).animate({scale: 1.7, skew: 12, translateX: 40, rotate: 180}); });
+</script>
