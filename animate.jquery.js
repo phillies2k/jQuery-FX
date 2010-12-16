@@ -25,7 +25,6 @@
         transformMethodDefaults         = [0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
         
         jQueryCSSProxy                  = $.fn.css,
-        jQueryCurProxy                  = $.fx.prototype.cur,
         
         units                           = {},
         defaults                        = {},
